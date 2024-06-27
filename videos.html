@@ -13,23 +13,25 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             background: linear-gradient(to bottom, blue, lightblue);
         }
 
         header {
             margin-bottom: 20px;
+            text-align: center;
         }
 
         .video-container {
             width: 100%;
             max-width: 720px;
-            margin: 0 auto;
+            margin: 20px 0;
         }
 
         .video-container iframe {
             width: 100%;
-            height: auto;
+            aspect-ratio: 16 / 9; /* Define a proporção de 16:9 */
+            border: none;
         }
     </style>
 </head>
@@ -38,17 +40,11 @@
         <h1>Nossos Vídeos</h1>
     </header>
     <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-dAM0UMd_78?si=mWobg-E7e-nJiGPt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
     <div class="video-container">
-        <iframe src="https://youtube.com/shorts/S4eiR_oVf9g?si=2KtHKBNfGU33XDQq" 
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" 
-                allowfullscreen>
-        </iframe>
+        <iframe src="https://youtube.com/shorts/S4eiR_oVf9g?si=hJixAEZDB3TUWoE4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 </body>
 </html>
