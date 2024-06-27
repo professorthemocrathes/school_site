@@ -3,40 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>videos</title>
+    <title>Vídeos</title>
     <style>
-        body{
+        body {
             font-family: Arial, Helvetica, sans-serif;
             margin: 0;
             padding: 0;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             background: linear-gradient(to bottom, blue, lightblue);
         }
 
-        .video-container{
+        header {
+            margin-bottom: 20px;
+        }
+
+        .video-container {
             width: 100%;
             max-width: 720px;
             margin: 0 auto;
         }
 
-        .video-container iframe{
+        .video-container iframe {
             width: 100%;
             height: auto;
         }
     </style>
 </head>
-
 <body>
     <header>
         <h1>Nossos Vídeos</h1>
     </header>
-
     <div class="video-container">
-        <iframe src="<iframe width="560" height="315" src="https://www.youtube.com/embed/-dAM0UMd_78?si=mWobg-E7e-nJiGPt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" frameborder="0"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-dAM0UMd_78?si=mWobg-E7e-nJiGPt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
-    
 </body>
 </html>
